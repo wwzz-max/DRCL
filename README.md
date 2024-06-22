@@ -130,7 +130,7 @@ There is one single script for this purpose (previously two but we recently merg
 
 The `image-idx` argument shall be followed by space-separated index/indices of the images to be plotted.
 
-Without the `--comparison` flag, the DDCL-only results will be plotted.
+Without the `--comparison` flag, the DRCL-only results will be plotted.
 With the ` --comparison` flag, the side-by-side comparison against other methods will be plotted.
 
 With the ` --grayscale` flag, the input images and reconstructed images will be plotted in grayscale.
@@ -182,14 +182,14 @@ python plot_paper_figure_main.py --config ../../config/retina_seed2.yaml --image
 #### To compute the quantitative metrics (single experiment).
 Assuming segmentation results have already been generated and saved.
 ```
-## Under $DCCL_ROOT/src/scripts_analysis
+## Under $DRCL_ROOT/src/scripts_analysis
 python run_metrics.py --config ../../config/retina_seed2.yaml
 ```
 
 #### To compute the quantitative metrics (multiple experiments).
 Assuming segmentation results have already been generated and saved.
 ```
-## Under $DCCL_ROOT/src/scripts_analysis
+## Under $DRCL_ROOT/src/scripts_analysis
 python run_metrics.py --config ../../config/retina_seed1.yaml ../../config/retina_seed2.yaml ../../config/retina_seed3.yaml
 ```
 
