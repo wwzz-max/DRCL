@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # DRCL
 =======
-# DRCL: Rethink Jigsaw Puzzles for Unsupervised Medical Image Segmentation
+# DRCL: Rethinking Jigsaw Puzzles for Unsupervised Medical Image Segmentation
 <br>
 
 ## A Glimpse into the Methods
