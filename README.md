@@ -1,7 +1,7 @@
 <<<<<<< HEAD
-# DCCL
+# DRCL
 =======
-# DCCL: Dual Constrained Contrastive Learning for Unsupervised Medical Image Segmentation
+# DRCL: Rethink Jigsaw Puzzles for Unsupervised Medical Image Segmentation
 <br>
 
 ## A Glimpse into the Methods
@@ -13,7 +13,7 @@
 
 ## Repository Hierarchy
 ```
-    (DDCL)
+    (DRCL)
     ├── (*) comparison: other SOTA unsupervised methods for comparison.
     |
     ├── checkpoints: model weights are saved here.
